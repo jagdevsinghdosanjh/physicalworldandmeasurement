@@ -1,7 +1,7 @@
 const questions = [
     {
         question: " Which of the following pairs of physical quantities may be represented in the same unit?",
-        optionA: "8 Planetsheat and Temperature",
+        optionA: "Heat and Temperature",
         optionB: "Temperature and Mole",
         optionC: "Heat and Work",
         optionD: "None of the aboce",
