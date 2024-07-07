@@ -1,0 +1,49 @@
+System of Units
+System means a set of things working together as parts of a mechanism or an interconnecting network. In simple words a group of interrelated elements. So a system of units is a set of interrelated standard of measurements.
+In physics as a branch of science, we are going to study the following systems of units:
+Foot Pound Second System of Units (FPS)
+Meter Kilogram Second System of Units (MKS)
+International System of Units (SI)
+Centimeter Gram Second System of Units (CGS)
+Supplementary System of Units
+International System of Unit is the most accepted in scientific community as compared to other systems of unit.
+Foot Pound Second System: In this system of unit the three fundamental quantities of Length, Mass, and Time are measured in the standard units of Foot, Pound (lb), and Second (s).
+Foot is the thousandth part of three hundred and four meters i.e., 0.3048 m. Compared to inches a foot is 12 times in magnitude where one inch is equal to hundredth part of two hundred and fifty four centimeters i.e., 1 foot =0.3048 m =12 inches = 12 x 0.254 cm = 30.48 cm.
+Length Converter- From Feet
+Type a value in the Feet field to convert the value to Meters:
+Feet
+Centimeters:
+Inches:
+function LengthConverterF2C(valNum1) { document.getElementById(“outputCentimeters1”).innerHTML=valNum1/0.032808; document.getElementById(“outputInches1”).innerHTML=valNum1*12; }
+Length Converter-From Centimeters
+Type a value in the Centimeter field to convert the value to inches:
+Centimeters
+Inches:
+Feet:
+function LengthConverterC2I(valNum2) { document.getElementById(“outputInches2”).innerHTML=valNum2/2.54; document.getElementById(“outputFeet2”).innerHTML=valNum2/(2.54*12); }
+Pound: Pound is a unit for measurement of mass mostly used in British imperial and United States customary system of units. One pound mass in FPS System is equal to 0.45359237 kg in SI System of Units
+Converter-From Pound to Kg and Grams
+Type a value in the Pound field to convert the value to Kg and Grams:
+Pound
+Kg:
+gram:
+function MassConverterlb2kg(valNum) { document.getElementById(“outputKg1”).innerHTML=valNum*0.45359237; document.getElementById(“outputGrams1”).innerHTML=valNum*1000*0.45359237; }
+Converter-From Kg toPounds and Grams
+Type a value in the Kilogram field to convert the value to Pound (lb) and Grams (g):
+Kilogram
+Pound:
+Gram:
+function MassConverterkg2lb(valNum3) { document.getElementById(“outputPound2”).innerHTML=valNum3/0.45359237; document.getElementById(“outputGrams2”).innerHTML=valNum3/0.001; }
+Second: It is used to measure time and is same in FPS, MKS ,CGS and SI as standard unit of measurement.
+Meter Kilogram Second System: This system of units is a physical system of measurement in which length is measured in the standard unit of meter, mass in kilogram, and time in second. It is mostly used in engineering as a coherent system of units. In this system all the physical quantities have one units satisfying the coherent relationships to these base units of length, mass, and time. This system of unit is more practical.
+International System (SI): A system of units is said to be coherent if all of its units are either base units, or are derived from the base units without using any numerical factors other than one. International System of Unit is a coherent system as it satisfies this condition.
+Centimeter Gram Second System (CGS): This system of units is a variant of metric system of units with centimeter as unit of measurement for length, gram for mass, and second for time as base. In many subfields of science it is preferred over SI. This system is not a coherent system of units. It is also called Gaussian System of Units and is the most common of electromagnetic unit systems.
+Supplementary System:
+This system of units include the geometrical units. Plane Angle and Solid angle are the two units available in supplementary System of Units.
+Let’s explore the relationship between plane angles and solid angles.
+Plane Angles: A plane angle is a measure of the rotation between two intersecting lines or planes. It is usually expressed in radian (rad) or degrees (°). The unit of plane angle is dimensionless.
+Solid Angles: A solid angle measures the amount of field of view covered by an object from a specific point (the apex). It is expressed in steradians (sr) and it is also a dimensionless unit. One steradian corresponds to one unit of area on the unit sphere surrounding the apex.
+Interconversion: The value of a solid angle can be derived from a plane angle. The unit of solid angle (steradian) represents a coherent derived unit equal to a square radian.
+Script> // Function to convert radians to steradians function radianToSteradian(radian) { // Formula: steradian = radian^2 let steradian = Math.pow(radian, 2); return steradian; } // Function to convert steradians to radians function steradianToRadian(steradian) { // Formula: radian = sqrt(steradian) let radian = Math.sqrt(steradian); document.getElementById(“outputSteardian”).innerHTML=return radian; }
+Radian
+Steradian:

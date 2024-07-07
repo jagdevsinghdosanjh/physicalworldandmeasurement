@@ -1,0 +1,79 @@
+The dimensions of a physical quantity are the powers to which the base quantities (fundamental quantities) are raised to represent that quantity. Here are some examples:
+Area: The area is the product of two lengths. Therefore, the dimension of area is 2 dimensions in length and zero dimensions in mass and time. Or [A] = [M0L2T^0].
+Volume: The volume is the product of three lengths. Therefore, the dimension of volume is 3 dimensions in length and zero dimensions in mass and time. Or [V] = [M0L3T^0].
+Acceleration: Acceleration is the rate of change of velocity per unit of time. Therefore, the dimension of acceleration is 1 dimension in length, -2 dimensions in time and zero dimensions in mass. Or [a] = [M0L1T^-2].
+The seven fundamental quantities and their symbols are as follows:
+Mass: [M]
+Length: [L]
+Time: [T]
+Temperature: [K]
+Electric Current: [I]
+Luminous Intensity: [cd]
+Amount of Substance: [mol]
+The dimensions of a physical quantity and the dimensions of its unit are the same. The letters [M], [L], [T] etc. specify only the nature of the unit and not its magnitude.
+Here are the dimensions of some fundamental and derived physical quantities:
+Fundamental Quantities:
+Amount of substance (n): [Mol] – extensive, scalar
+Length (l): [L] – extensive
+Time (t): [T] – scalar, intensive, extensive
+Mass (m): [M] – extensive, scalar
+Temperature (T): [K] – intensive, scalar
+Electric Current (I): [I] – extensive, scalar
+Angle (∠): [∠ BAC] – extensive, scalar
+Solid angle (Ω): [Ω] – extensive, scalar
+Luminous intensity (Iv): [J] – scalar
+Derived Quantities:
+Area (A): [M⁰L²T⁰]
+Volume (V): [M⁰L³T⁰]
+Density (ρ): [ML⁻³T⁰]
+Acceleration (a): [M⁰LT⁻²]
+Momentum (p): [MLT⁻¹]
+Energy (E): [ML²T⁻²]
+Work (W): [ML²T⁻²]
+Please note that the dimensions of a physical quantity are the powers to which the base quantities (fundamental quantities) are raised to represent that quantity1. For example, the area is the product of two lengths, so its dimension is [L²] or [M⁰L²T⁰], meaning it has 2 dimensions in length and zero dimensions in mass and time.
+Physical Quantity	General Formula	Units	Dimensional Formula
+Angle	arc/ radius	rad	M0L0T0
+Acceleration/ acceleration due to gravity (g)	Change in velocity/ time	ms-2	LT-2
+Angular Displacement	s = rθ	rad	M0I0T0
+Angular Momentum (L)	L = I x ω	kgm2s-1	ML2T-1
+Area (A)	A = l x b	m2	M0L2T0
+Boltzmann’s Constant	k	JK-1	ML2T-2K-1
+Coefficient of thermal conductivity	Kappa	Wm-1K-1	MLT-3K-1
+Density (ρ)	ρ = mass/ volume	kg m-3	ML-3
+Displacement/ Wavelength	d / λ	m	L
+Electric Capacitance	C = Q/ V	CV-1	M-2L-2T4I2
+Electric Conductivity	1/ resistivity	siemens/ metre or Sm-1	M-1L-3T3I2
+Electric Current	I = V/ R	Ampere	I
+Electric Field/ Electric Field Strength	E = charge x voltage	Vm-1, NC-1	MLT-3I-1
+Energy	E = Power x Time	Joule	ML2T-2
+Force	F = ma	Newton (N)	MLT-2
+Frequency	f = 1/Time Period	Hz	T-1
+Heat	ΔQ = C/ mT	J or calorie	ML2T-2
+Impulse	I = F x t	Kgs-1 or Ns	MLT-1
+Gravitational Constant	F = G. (m1m2/r2)	Nkg-2/m-2	M-1L3T-2
+Latent Heat (L)	L = Q/ M	JKg-1	M0L2T-2
+Magnetic Dipole Moment	T = m x B	Am2	L2I
+Modulus of Elasticity (γ )	γ = stress/ strain	Pa, Nm-2	ML-1T-2
+Moment of Inertia (I)	I = mass x radius2	Kgm2	ML2
+Permeability of free space	μo = 4πFd2/ m1m2	NA-2, Hm-1	MLT-2I-2
+The permittivity of free space	εo = Q1Q2/ 4πFd2	Fm-1 or C2N-1m-2	M-1L-3T4I2
+Power	P= work/time	Watt or Js-1	ML2T-3
+Pressure	Pr = Force/ Area	Pa, Nm-2 	ML-1T-2
+Refractive Index	n = c / v	no specific unit	M0L0T0
+Specific Conductance/ Conductivity	1/ specific conductance	siemens/metre or Sm-1	M-1L-3T3I2
+Specific Heat	mass x specific heat x temperature	Jkg-1θ-1	M0L2T-2K-1
+Specific Volume	1/ density	m3kg-1	M-1L3
+Speed	distance/ time	ms-1	LT-1
+Stress	restoring force/ area	Pa, Nm-2	ML-1T-2
+Temperature	K = C + 273.15 or C = K − 273.15	oC or K	K
+Torque/ Moment of Force	Force x Distance	Nm	ML2T-2
+Velocity 	Displacement/ Time	ms-1	LT-1
+Velocity Gradient	dv/ dx	s-1	T-1
+Volume	v = l x b x h	m3	L3
+Work	Force x Displacement	J	ML2T-2
+One response to “Dimensions of Physical Quantities”
+Jagdev Singh Dosanjh Avatar
+Jagdev Singh Dosanjh
+February 16, 2024 at 1:21 am
+Edit
+The content adequately explains the dimensions of physical quantities, providing clear examples of fundamental and derived quantities along with their dimensional formulas and units. To further enhance the post, including visual aids such as diagrams or graphs could help illustrate the concepts, making it easier for readers to grasp the information. Give me suggestions for further improvements in content quality.

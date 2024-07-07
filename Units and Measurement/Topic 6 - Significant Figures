@@ -1,0 +1,74 @@
+Significant figures in the measured value of a physical quantity provide information regarding the number of digits in which we have a confidence. Thus, the larger the number of significant figures obtained in a measurement, the greater is the precision of the measurement. All accurately known digits in a measurement plus the first uncertain digit together form significant figures.
+Rules for Counting Significant Figures
+For counting significant figures, we make use of the rules listed hereunder:
+All non-zero digits are significant. For example; x=2567 has clearly four significant figures.
+The zeroes appearing between two non-zero digits are counted in significant figures. For example; 6.028 has 4 significant figures.
+The zeroes located to the left of the last non-zero digit are not significant. For example; 0.0042 has two significant figures.
+In a number without decimal, zeroes located to the right of the non-zero digit are not significant. However, when some value is assigned on the basis of actual measurement, then the zeroes to the right non-zero digit become significant. For example, L = 20 m has two significant figures but x = 200 has only one significant figure.
+In a number with decimal, zeroes located to the right of last non-zero digit are significant. For example, x = 1.400 has four significant figures.
+The power of ten is not counted as significant digit(s). For example; 1.4 x 10-7 has only two significant figures, i.e., 1 and 4.
+Change in the units of measurement of a quantity, however, does not change the number of significant figures. The same distance can be expressed as 4.067 km or 4.067 x 105 cm. In all these expressions, however, the number of significant figures continues to be four.
+Measured value	Number of Significant Figures	Rule
+12376	5	1
+6024.7	5	2
+0.071	2	3
+410 m	3	4
+720	2	4
+240	3	5
+1.6 x 1014	2	6
+Rounding of Digits: In physics, the process of rounding off is used to simplify a number while keeping its value close to the original. This is done to preserve the significant figures, which are the digits in a number that carry meaningful information about its precision. Here are the general rules for rounding off:
+Rounding Rules for Whole Numbers:
+To get an accurate final result, always choose the smaller place value.
+Look for the next smaller place which is towards the right of the number that is being rounded off.
+If the digit in the smallest place is less than 5, then the digit is left untouched. Any number of digits after that number becomes zero and this is known as rounding down.
+If the digit in the smallest place is greater than or equal to 5, then the digit is added with +1. Any digits after that number become zero and this is known as rounding up.
+Rounding Rules for Decimal Numbers:
+Determine the rounding digit and look at its righthand side.
+If the digits on the right-hand side are less than 5, consider them as equal to zero.
+If the digits on the right-hand side are greater than or equal to 5, then add +1 to that digit and consider all other digits as zero.
+For example, if you want to round off the number 5350 to the nearest hundred, you would look at the tens place [which is 5]. Since 5 is greater than or equal to 5, you add 1 to the hundreds place digit (3+1=4), and the other digits become zero. So, the final number is 5400.
+Remember, the number of significant figures in a result is simply the number of figures that are known with some degree of reliability. For instance, the number 13.2 is said to have 3 significant figures.
+Algebraic operations with significant figures: When performing algebraic operations with significant figures, it’s important to remember the following rules:
+Addition and Subtraction: The result should retain the least number of decimal places of any number in the operation. For example, if you add 123.4 (1 decimal place) and 0.36 (2 decimal places), the result should be rounded to one decimal place, giving 123.8.
+Multiplication and Division: The result should retain the least number of significant figures of any number in the operation. For example, if you multiply 3.14 (3 significant figures) by 2.0 (2 significant figures), the result should be rounded to two significant figures, giving 6.3.
+Powers and Roots: The result should retain the least number of significant figures of any number in the operation. For example, if you square 1.23 (3 significant figures), the result should be rounded to three significant figures, giving 1.51.
+Remember, these rules apply to the final result of your calculation, not to intermediate steps. So, carry out all your calculations with full precision first, then round off the final result to the appropriate number of significant figures.
+Demonstration about how to perform the above operations in Python:
+# Python code to perform operations with significant figures
+import decimal
+# Function to round off to the required number of significant figures
+def round_sig(x, sig=2):
+    return round(x, sig-int(decimal.Decimal(str(x)).as_tuple().exponent)-1)
+# Addition
+a = 123.4
+b = 0.36
+sum_ab = a + b
+print(f"Sum rounded to 1 decimal place: {round(sum_ab, 1)}")
+# Multiplication
+c = 3.14
+d = 2.0
+product_cd = c * d
+print(f"Product rounded to 2 significant figures: {round_sig(product_cd, 2)}")
+# Powers
+e = 1.23
+square_e = e**2
+print(f"Square rounded to 3 significant figures: {round_sig(square_e, 3)}")
+RoundingOffDOWNLOAD
+Google Co-lab hyperlink is available to run this code block:
+https://colab.research.google.com/drive/1S1XQd7BcjjxMhPvQpFLg5nHM9KFYflxX?usp=sharing
+Error Analysis:
+Error analysis is a crucial aspect of all quantitative sciences, including physics. It deals with the uncertainties that arise in measurements due to various factors such as human error or machine imperfections1.
+There are three main types of errors:
+Gross Errors: These are due to human oversight or mistakes while reading or recording data. They can be reduced by taking proper care in reading, recording, and calculating data.
+Random Errors: These occur irregularly and are hence random. They are often due to unpredictable fluctuations in readings.
+Systematic Errors: These result from faulty calibration of equipment or bias on the part of the observer. In some cases, corrections can be made to the data to compensate for systematic errors where the type and extent of error is known.
+A measured number by itself, without a value for the uncertainty, carries very little meaning as it cannot rule out any other value. For example, a measurement of 5 mm is not inconsistent with one of 20 meters if the uncertainties are large enough. Therefore, it’s important to determine and quote the uncertainty range for every measurement in an experiment.
+In essence, error analysis helps us understand the reliability of our measurements and results, and it guides us in improving the accuracy of future measurements.
+Propagation of Errors: Propagation of Error, also known as Propagation of Uncertainty, is a method used in physics and statistics to determine how the uncertainties in individual measurements affect the uncertainty of a calculated result.
+Here are some basic rules for error propagation:
+If x and y have independent random errors ±x and ±y, then the error in z = x + y is given by ±z = sqrt(±x² + ±y²).
+If x and y have independent random errors ±x and ±y, then the error in z = x * y is given by ±z/z = sqrt((±x/x)² + (±y/y)²).
+If z = f(x) for some function f(), then ±z = |f'(x)|*±x.
+These rules are derived from calculus and are designed to combine uncertainties from multiple variables, providing an accurate measurement of uncertainty.
+For example, if you measure the side of a cube as 2.00 ± 0.02 cm, the volume V is given by V = s³, so the uncertainty in the volume is ±V = 3s²*±s, and the volume is 8.0 ± 0.2 cm³.
+Please note that these are just the basic rules. There are more complex rules for more complex functions or measurements. It’s always recommended to refer to a comprehensive guide or textbook for a detailed understanding.

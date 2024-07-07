@@ -1,0 +1,16 @@
+SI system (from the French Système international d’unités) is the most widely acceptable system of units. The General Conference on Weights and Measures (CGPM) has responsibility of it to revise from time to time. In 1960 the 11th CGPM formally defined and established the SI and has subsequently revised it from time to time in response to the requirements of users and advances in science and technology.
+The most recent and perhaps the most significant revision of the SI since its establishment was made by the 26th CGPM (2018) and is documented in this 9th edition of the SI Brochure.
+It is a coherent system of units and is used in scientific community throughout the world.
+According to definition of SI, the value of a fundamental constant can be expressed as the product of a number and a unit.
+The seven constants are chosen in such a way that any unit of the SI can be written either through a defining constant itself or through products or quotient of defining constants.
+According to International Bureau of Weights and Measures (BIPM)the International System of Units, is the system of units in which
+the Plank’s constant, h, is 6.626 070 15 x 10-34 Js [where Js is = Kgm2s-1 is used for defining the Kilogram as unit for Mass]
+the speed of light in vacuum, c, is 299 792 458 m/s, [used for defining Meter as the unit of Length]
+the unperturbed ground state hyperfine transition frequency of the caesium 133 atom, ΔνCs, is 9 192 631 770 Hz,[used for defining Second as the unit of Time]
+the elementary charge, e, is 1.602 176 634 x 10-19 C. [used for defining the Ampere as the unit of Electric Current]
+the Boltzman constant, k, us 1.380 649 x 10-23 J/K, [used for defining the Kelvin as the unit of Thermodynamic Temperature]
+the Avogadro constant, NA, is 6.022 140 76 x 1023 mol-1,[used for defining the Mole as the Quantity of Matter]
+the luminous efficacy of monochromatic radiation of frequency 540 x 1012 Hz, Kcd, is 683 lm/W, [used for defining the Candela as the unit of Luminous Intensity]
+Note: For further reference to this post read page thirteen from SI-Brochure-9-En.pdf 
+Doing something creative in python for SI constants. Below is just a running example.
+https://colab.research.google.com/drive/17UqjZJVLmA8IMUrpQAB-BfsawgYfILsO?usp=sharing

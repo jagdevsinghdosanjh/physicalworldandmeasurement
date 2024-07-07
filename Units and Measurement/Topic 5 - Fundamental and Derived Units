@@ -1,0 +1,64 @@
+Fundamental Units: The basic physical quantities, which are independent of other quantities, are known as fundamental quantities. For example mass, length, and time are considered to be the fundamental quantities. The units for these are kilogram, meter, and second and so are considered as fundamental units in SI System. Four measuring units for other fundamental quantities namely electric current, thermodynamic temperature, quantity of matter and luminous intensity are ampere, kelvin, mole, and candela.
+Derived Units: The physical quantities which can be derived from the fundamental physical quantities are known as Derived physical quantities. The units for these type of quantities are called Derived Units.
+In mechanics, virtually all physical quantities can be expressed in terms of mass, length, and time. The main system of units for their measurement are:
+CGSFPS
+MKS and
+SI
+A list of seven fundamental quantities along with their SI and cgs units of measurements are listed below:
+S.No	Physical Quantity	SI Unit	CGS Unit
+1.	Mass	Kg	g
+2.	Length	m	cm
+3.	Time	s	s
+4.	Temperature	k	k
+5.	Luminous Intensity	cd	stilb
+6.	Electric Current	A	e.m.u
+7.	Amount of susbtance	mol/cm3	g-mol
+Prefix values for SI Units
+Purpose	Name	Symbol	Factor	Name
+larger quantities
+or whole units	quetta	Q	1030	nonillion
+ronna	R	1027	octillion
+yotta	Y	1024	septillion
+zetta	Z	1021	sextillion
+exa	E	1018	quintillion
+peta	P	1015	quadrillion
+tera
+Example: teraHz	T	1012	trillion
+giga
+Example: gigawatt	G	109	billion
+mega	M	106	million
+kilo
+Example: kiloliter	k	103	thousand
+hecto
+Example: hetare	h	102	hundred
+deka
+Example: dekameter	da	101	ten
+ 	 	 	100	one
+smaller quantities
+or sub units	deci
+Example: decimeter	d	10-1	tenth
+centi
+Example: centigram	c	10-2	hundredth
+milli
+Example: milliliter	m	10-3	thousandth
+micro
+Example: microgram	μ	10-6	millionth
+nano
+Example: nanometer	n	10-9	billionth
+pico
+Example: picogram	p	10-12	trillionth
+femto
+Example: femtosecond	f	10-15	quadrillionth
+atto	a	10-18	quintillionth
+zepto
+Example: zeptosecond	z	10-21	sextillionth
+yocto
+Example: yoctosecond	y	10-24	septillionth
+ronto	r	10-27	octillionth
+quecto	q	10-30	nonillionth
+Some other practical units of importance are as
+Micron: a small unit of measurement for length. (=10-6m)
+Angstrom: a small unit of length used to measure the size of atom and is used in atomic physics. (10-10 m).
+Light Year: Measure of distance equal to travelled by light in one years time. (9.5 x 10-15 m)
+Fermi is a unit of distance in which the size of a nucleus is measured. (10-15 m)
+Atomic Mass Unit: It is a unit of mass equal to 1/12th of mass of carbon-12 nucleus and is used in measuring the masses of nuclei. (1.67 x 10-27 kg)
